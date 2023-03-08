@@ -6,7 +6,7 @@ export default defineConfig([
     outDir: 'build',
     target: 'node16',
     platform: 'node',
-    format: ['cjs'],
+    format: ['esm'],
     splitting: false,
     sourcemap: true,
     minify: false,
